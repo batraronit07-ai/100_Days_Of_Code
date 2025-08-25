@@ -25,9 +25,24 @@ int main()
 
     printf("product of %d and %d is: %d\n", a, b, product);
 
-    quotient = a / b;
 
+    if (b !=0)
+{
+    quotient = a / b;
+    
     printf("quotient of %d and %d is: %d\n", a, b, quotient);
+}
+    else if (b == 0)
+
+    printf("this is not divisible");
+    
 
     return 0;
 }
+
+
+
+
+
+
+
