@@ -14,20 +14,26 @@ After swap: 14 7
 
 */
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main()
+{
 
-    int num1,num2;
-    
+    int num1, num2;
+
     printf("the 1st number is:");
     scanf("%d", &num1);
 
     printf("the 2nd number is:");
     scanf("%d", &num2);
 
-    
+    num1 = num1 + num2;
+    num2 = num1 - num2;
+    num1 = num1 - num2;
 
+    printf("The number 1 after switching of values is : %d\n", num1);
+
+    printf("The number 2 after switching of values is : %d\n", num2);
+
+    return 0;
 }
-
-  
