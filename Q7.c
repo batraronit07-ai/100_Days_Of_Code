@@ -26,5 +26,8 @@ int main() {
     printf("the 2nd number is:");
     scanf("%d", &num2);
 
-    return 0;
+    
+
 }
+
+  
