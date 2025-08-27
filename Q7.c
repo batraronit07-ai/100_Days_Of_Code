@@ -24,7 +24,7 @@ int main()
     printf("the 1st number is:");
     scanf("%d", &num1);
 
-    printf("the 2nd number is:");
+    printf("the 2nd number is:"); 
     scanf("%d", &num2);
 
     num1 = num1 + num2;
